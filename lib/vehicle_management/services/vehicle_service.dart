@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:byker_z_mobile/shared/client/api.client.dart';
-import 'package:byker_z_mobile/vehicle_management/model/vehicle_create_request.dart';
+import 'package:octane_mobile/shared/client/api.client.dart';
+import 'package:octane_mobile/vehicle_management/model/vehicle_create_request.dart';
 import '../model/vehicle_model.dart';
 
 class VehicleService {

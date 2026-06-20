@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/assignments/model/assignment.dart';
+import 'package:octane_mobile/assignments/model/assignment.dart';
 
 abstract class AssignmentState {}
 

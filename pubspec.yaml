@@ -1,5 +1,5 @@
-name: byker_z_mobile
-description: "An application made by NRG6"
+name: octane_mobile
+description: "An application made by Nodrify"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -63,9 +63,9 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: false
-  image_path: "assets/images/bykerz-logo.png"
+  image_path: "assets/images/octane-logo.png"
   adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/images/bykerz-logo.png"
+  adaptive_icon_foreground: "assets/images/octane-logo.png"
 
 # The following section is specific to Flutter packages.
 flutter:
@@ -79,11 +79,11 @@ flutter:
   assets:
     - assets/images/
     - assets/images/vehicle.png
-    - assets/images/bykerz.png
+    - assets/images/octane.png
     - images/vehicle.png
-    - images/bykerz.png
-    - assets/images/bykerz-logo.png
-    - images/bykerz-logo.png
+    - images/octane.png
+    - assets/images/octane-logo.png
+    - images/octane-logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

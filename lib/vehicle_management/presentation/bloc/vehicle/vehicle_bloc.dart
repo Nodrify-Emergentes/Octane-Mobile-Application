@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_event.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_state.dart';
-import 'package:byker_z_mobile/vehicle_management/services/model_service.dart';
-import 'package:byker_z_mobile/vehicle_management/services/vehicle_service.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_event.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_state.dart';
+import 'package:octane_mobile/vehicle_management/services/model_service.dart';
+import 'package:octane_mobile/vehicle_management/services/vehicle_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class VehicleBloc extends Bloc<VehicleEvent, VehicleState> {

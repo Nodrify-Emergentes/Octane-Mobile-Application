@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/maintenance_and_operations/presentation/views/expense_detail.dart';
+import 'package:octane_mobile/maintenance_and_operations/presentation/views/expense_detail.dart';
 import 'package:flutter/material.dart';
 
 /// Navigation helper class for maintenance and operations features

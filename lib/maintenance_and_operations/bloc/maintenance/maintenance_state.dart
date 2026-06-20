@@ -1,5 +1,5 @@
-import 'package:byker_z_mobile/maintenance_and_operations/model/maintenance.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/model/maintenance_card.dart';
+import 'package:octane_mobile/maintenance_and_operations/model/maintenance.dart';
+import 'package:octane_mobile/maintenance_and_operations/model/maintenance_card.dart';
 
 abstract class MaintenanceState {}
 

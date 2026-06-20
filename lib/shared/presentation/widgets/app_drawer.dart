@@ -1,10 +1,10 @@
-import 'package:byker_z_mobile/iam/presentation/views/sign-in.page.dart';
-import 'package:byker_z_mobile/l10n/app_localizations.dart';
-import 'package:byker_z_mobile/l10n/components/language_switcher_button.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/presentation/views/expenses.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/presentation/views/maintenance.dart';
-import 'package:byker_z_mobile/shared/presentation/views/dashboard.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/views/vehicles.dart';
+import 'package:octane_mobile/iam/presentation/views/sign-in.page.dart';
+import 'package:octane_mobile/l10n/app_localizations.dart';
+import 'package:octane_mobile/l10n/components/language_switcher_button.dart';
+import 'package:octane_mobile/maintenance_and_operations/presentation/views/expenses.dart';
+import 'package:octane_mobile/maintenance_and_operations/presentation/views/maintenance.dart';
+import 'package:octane_mobile/shared/presentation/views/dashboard.dart';
+import 'package:octane_mobile/vehicle_management/presentation/views/vehicles.dart';
 import 'package:flutter/material.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -30,7 +30,7 @@ class AppDrawer extends StatelessWidget {
               color: Color(0xFFFF6B35),
             ),
             child: Text(
-              'BykerZ',
+              'Octane',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,

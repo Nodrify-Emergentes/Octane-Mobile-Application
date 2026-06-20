@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:byker_z_mobile/iam/bloc/profile/profile_event.dart';
-import 'package:byker_z_mobile/iam/bloc/profile/profile_state.dart';
-import 'package:byker_z_mobile/iam/services/profile_service.dart';
+import 'package:octane_mobile/iam/bloc/profile/profile_event.dart';
+import 'package:octane_mobile/iam/bloc/profile/profile_state.dart';
+import 'package:octane_mobile/iam/services/profile_service.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 

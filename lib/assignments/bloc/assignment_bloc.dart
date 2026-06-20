@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:byker_z_mobile/assignments/bloc/assignment_event.dart';
-import 'package:byker_z_mobile/assignments/bloc/asssigment_state.dart';
-import 'package:byker_z_mobile/assignments/services/assingment_service.dart';
+import 'package:octane_mobile/assignments/bloc/assignment_event.dart';
+import 'package:octane_mobile/assignments/bloc/asssigment_state.dart';
+import 'package:octane_mobile/assignments/services/assingment_service.dart';
 
 class AssignmentBloc extends Bloc<AssignmentEvent, AssignmentState> {
   final AssignmentService assignmentService;

@@ -1,6 +1,6 @@
-import 'package:byker_z_mobile/maintenance_and_operations/model/expense.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/model/maintenance.dart';
-import 'package:byker_z_mobile/vehicle_management/model/vehicle_model.dart';
+import 'package:octane_mobile/maintenance_and_operations/model/expense.dart';
+import 'package:octane_mobile/maintenance_and_operations/model/maintenance.dart';
+import 'package:octane_mobile/vehicle_management/model/vehicle_model.dart';
 
 abstract class DashboardState {}
 

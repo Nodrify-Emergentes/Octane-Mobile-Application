@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/iam/models/profile_entity.dart';
+import 'package:octane_mobile/iam/models/profile_entity.dart';
 
 abstract class ProfileState {}
 

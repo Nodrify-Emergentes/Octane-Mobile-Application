@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/maintenance_and_operations/model/expense.dart';
+import 'package:octane_mobile/maintenance_and_operations/model/expense.dart';
 
 abstract class ExpenseState {}
 

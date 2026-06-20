@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/bloc/expense/expense_event.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/bloc/expense/expense_state.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/services/expense_service.dart';
+import 'package:octane_mobile/maintenance_and_operations/bloc/expense/expense_event.dart';
+import 'package:octane_mobile/maintenance_and_operations/bloc/expense/expense_state.dart';
+import 'package:octane_mobile/maintenance_and_operations/services/expense_service.dart';
 
 class ExpenseBloc extends Bloc<ExpenseEvent, ExpenseState> {
   final ExpenseService expenseService;

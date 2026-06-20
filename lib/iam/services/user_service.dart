@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:byker_z_mobile/shared/client/api.client.dart';
+import 'package:octane_mobile/shared/client/api.client.dart';
 import '../models/user.dart';
 
 class UserService {

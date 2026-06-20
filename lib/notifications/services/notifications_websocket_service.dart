@@ -24,7 +24,7 @@ class NotificationWebSocketService {
       await disconnect();
 
       _channel = WebSocketChannel.connect(
-        Uri.parse('wss://bykerz-backend.onrender.com/ws-wellness'),
+        Uri.parse('wss://octane-backend.onrender.com/ws-wellness'),
 
       );
 

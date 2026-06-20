@@ -1,5 +1,5 @@
-import 'package:byker_z_mobile/l10n/bloc/locale/locale_bloc.dart';
-import 'package:byker_z_mobile/l10n/bloc/locale/locale_event.dart';
+import 'package:octane_mobile/l10n/bloc/locale/locale_bloc.dart';
+import 'package:octane_mobile/l10n/bloc/locale/locale_event.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

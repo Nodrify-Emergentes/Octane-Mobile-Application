@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_bloc.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_event.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_state.dart';
-import 'package:byker_z_mobile/vehicle_management/model/vehicle_model.dart';
-import 'package:byker_z_mobile/l10n/app_localizations.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_bloc.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_event.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_state.dart';
+import 'package:octane_mobile/vehicle_management/model/vehicle_model.dart';
+import 'package:octane_mobile/l10n/app_localizations.dart';
 
 class VehicleDetailsPage extends StatelessWidget {
   final int vehicleId;

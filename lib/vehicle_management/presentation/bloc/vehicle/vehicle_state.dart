@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/vehicle_management/model/vehicle_model.dart';
+import 'package:octane_mobile/vehicle_management/model/vehicle_model.dart';
 
 abstract class VehicleState {}
 

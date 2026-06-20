@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:byker_z_mobile/shared/client/api.client.dart';
-import 'package:byker_z_mobile/vehicle_wellness/data/datasource/token_datasource.dart';
+import 'package:octane_mobile/shared/client/api.client.dart';
+import 'package:octane_mobile/vehicle_wellness/data/datasource/token_datasource.dart';
 import 'package:http/http.dart' as http;
 import '../models/wellness_metric_model.dart';
 

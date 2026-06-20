@@ -1,4 +1,4 @@
-package inc.nrg6.byker_z_mobile
+package inc.nodrify.octane_mobile
 
 import io.flutter.embedding.android.FlutterActivity
 

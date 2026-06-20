@@ -1,9 +1,9 @@
-import 'package:byker_z_mobile/iam/bloc/authentication/authentication_bloc.dart';
-import 'package:byker_z_mobile/iam/bloc/authentication/authentication_event.dart';
-import 'package:byker_z_mobile/iam/bloc/authentication/authentication_state.dart';
-import 'package:byker_z_mobile/iam/services/authentication_service.dart';
-import 'package:byker_z_mobile/iam/services/profile_service.dart';
-import 'package:byker_z_mobile/shared/presentation/views/dashboard.dart';
+import 'package:octane_mobile/iam/bloc/authentication/authentication_bloc.dart';
+import 'package:octane_mobile/iam/bloc/authentication/authentication_event.dart';
+import 'package:octane_mobile/iam/bloc/authentication/authentication_state.dart';
+import 'package:octane_mobile/iam/services/authentication_service.dart';
+import 'package:octane_mobile/iam/services/profile_service.dart';
+import 'package:octane_mobile/shared/presentation/views/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../bloc/profile/profile_bloc.dart';
@@ -104,7 +104,7 @@ class _SignInState extends State<SignInPage> with SingleTickerProviderStateMixin
                             child: SizedBox(
                               height: 120,
                               child: Image.asset(
-                                'assets/images/bykerz.png',
+                                'assets/images/octane.png',
                                 fit: BoxFit.contain,
                               ),
                             ),
@@ -113,7 +113,7 @@ class _SignInState extends State<SignInPage> with SingleTickerProviderStateMixin
                         const SizedBox(height: 32),
 
                         const Text(
-                          'Welcome to BykerZ',
+                          'Welcome to Octane',
                           style: TextStyle(
                             fontSize: 28,
                             fontWeight: FontWeight.bold,

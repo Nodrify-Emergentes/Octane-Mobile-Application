@@ -1,11 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/bloc/maintenance/maintenance_event.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/bloc/maintenance/maintenance_state.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/services/maintenance_service.dart';
-import 'package:byker_z_mobile/vehicle_management/services/vehicle_service.dart';
-import 'package:byker_z_mobile/iam/services/user_service.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/model/maintenance_card.dart';
-import 'package:byker_z_mobile/maintenance_and_operations/model/maintenance.dart' as maintenance_model;
+import 'package:octane_mobile/maintenance_and_operations/bloc/maintenance/maintenance_event.dart';
+import 'package:octane_mobile/maintenance_and_operations/bloc/maintenance/maintenance_state.dart';
+import 'package:octane_mobile/maintenance_and_operations/services/maintenance_service.dart';
+import 'package:octane_mobile/vehicle_management/services/vehicle_service.dart';
+import 'package:octane_mobile/iam/services/user_service.dart';
+import 'package:octane_mobile/maintenance_and_operations/model/maintenance_card.dart';
+import 'package:octane_mobile/maintenance_and_operations/model/maintenance.dart' as maintenance_model;
 
 class MaintenanceBloc extends Bloc<MaintenanceEvent, MaintenanceState> {
   final MaintenanceService maintenanceService;

@@ -1,18 +1,18 @@
-import 'package:byker_z_mobile/iam/bloc/authentication/authentication_bloc.dart';
-import 'package:byker_z_mobile/iam/presentation/views/sign-in.page.dart';
-import 'package:byker_z_mobile/iam/services/authentication_service.dart';
-import 'package:byker_z_mobile/iam/services/profile_service.dart';
-import 'package:byker_z_mobile/l10n/app_localizations.dart';
-import 'package:byker_z_mobile/notifications/bloc/notifications_bloc.dart';
-import 'package:byker_z_mobile/notifications/services/notifications_websocket_service.dart';
-import 'package:byker_z_mobile/vehicle_wellness/data/datasource/wellness_metric_datasource.dart';
-import 'package:byker_z_mobile/vehicle_wellness/data/repository/wellness_metric_repository_impl.dart';
-import 'package:byker_z_mobile/vehicle_wellness/domain/usecases/CreateWellnessMetricUseCase.dart';
-import 'package:byker_z_mobile/vehicle_wellness/domain/usecases/DeleteWellnessMetricUseCase.dart';
-import 'package:byker_z_mobile/vehicle_wellness/domain/usecases/GetWellnessMetricByIdUseCase.dart';
-import 'package:byker_z_mobile/vehicle_wellness/domain/usecases/GetWellnessMetricsByVehicleIdUseCase.dart';
-import 'package:byker_z_mobile/vehicle_wellness/domain/usecases/UpdateWellnessMetricUseCase.dart';
-import 'package:byker_z_mobile/vehicle_wellness/presentation/statemanagement/bloc/wellness_metric_bloc.dart';
+import 'package:octane_mobile/iam/bloc/authentication/authentication_bloc.dart';
+import 'package:octane_mobile/iam/presentation/views/sign-in.page.dart';
+import 'package:octane_mobile/iam/services/authentication_service.dart';
+import 'package:octane_mobile/iam/services/profile_service.dart';
+import 'package:octane_mobile/l10n/app_localizations.dart';
+import 'package:octane_mobile/notifications/bloc/notifications_bloc.dart';
+import 'package:octane_mobile/notifications/services/notifications_websocket_service.dart';
+import 'package:octane_mobile/vehicle_wellness/data/datasource/wellness_metric_datasource.dart';
+import 'package:octane_mobile/vehicle_wellness/data/repository/wellness_metric_repository_impl.dart';
+import 'package:octane_mobile/vehicle_wellness/domain/usecases/CreateWellnessMetricUseCase.dart';
+import 'package:octane_mobile/vehicle_wellness/domain/usecases/DeleteWellnessMetricUseCase.dart';
+import 'package:octane_mobile/vehicle_wellness/domain/usecases/GetWellnessMetricByIdUseCase.dart';
+import 'package:octane_mobile/vehicle_wellness/domain/usecases/GetWellnessMetricsByVehicleIdUseCase.dart';
+import 'package:octane_mobile/vehicle_wellness/domain/usecases/UpdateWellnessMetricUseCase.dart';
+import 'package:octane_mobile/vehicle_wellness/presentation/statemanagement/bloc/wellness_metric_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
       child: BlocBuilder<LocaleBloc,Locale>(
         builder: (context, localeState) {
           return MaterialApp(
-            title: 'BykerZ',
+            title: 'Octane',
             locale: localeState,
             supportedLocales: AppLocalizations.supportedLocales,
             localizationsDelegates: AppLocalizations.localizationsDelegates,

@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/iam/models/sign-in_response.dart';
+import 'package:octane_mobile/iam/models/sign-in_response.dart';
 
 abstract class AuthenticationState {}
 

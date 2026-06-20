@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:byker_z_mobile/iam/bloc/authentication/authentication_event.dart';
+import 'package:octane_mobile/iam/bloc/authentication/authentication_event.dart';
 import 'package:bloc/bloc.dart';
-import 'package:byker_z_mobile/iam/bloc/authentication/authentication_state.dart';
-import 'package:byker_z_mobile/iam/services/authentication_service.dart';
-import 'package:byker_z_mobile/iam/services/profile_service.dart';
+import 'package:octane_mobile/iam/bloc/authentication/authentication_state.dart';
+import 'package:octane_mobile/iam/services/authentication_service.dart';
+import 'package:octane_mobile/iam/services/profile_service.dart';
 
 import '../../../shared/client/api.client.dart';
 import '../../models/sign-in_response.dart';

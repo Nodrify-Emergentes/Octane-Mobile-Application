@@ -1,18 +1,18 @@
-import 'package:byker_z_mobile/vehicle_management/presentation/pages/vehicle_create_dialog.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/pages/vehicle_details.dart';
-import 'package:byker_z_mobile/vehicle_management/services/model_service.dart';
+import 'package:octane_mobile/vehicle_management/presentation/pages/vehicle_create_dialog.dart';
+import 'package:octane_mobile/vehicle_management/presentation/pages/vehicle_details.dart';
+import 'package:octane_mobile/vehicle_management/services/model_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:byker_z_mobile/shared/presentation/widgets/app_drawer.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_bloc.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_event.dart';
-import 'package:byker_z_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_state.dart';
-import 'package:byker_z_mobile/vehicle_management/model/vehicle_model.dart';
-import 'package:byker_z_mobile/vehicle_management/services/vehicle_service.dart';
-import 'package:byker_z_mobile/vehicle_management/model/vehicle_create_request.dart';
+import 'package:octane_mobile/shared/presentation/widgets/app_drawer.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_bloc.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_event.dart';
+import 'package:octane_mobile/vehicle_management/presentation/bloc/vehicle/vehicle_state.dart';
+import 'package:octane_mobile/vehicle_management/model/vehicle_model.dart';
+import 'package:octane_mobile/vehicle_management/services/vehicle_service.dart';
+import 'package:octane_mobile/vehicle_management/model/vehicle_create_request.dart';
 import '../../../notifications/presentation/views/notifications_view.dart';
 import '../../../vehicle_wellness/presentation/views/wellness_metrics_view.dart';
-import 'package:byker_z_mobile/l10n/app_localizations.dart';
+import 'package:octane_mobile/l10n/app_localizations.dart';
 
 class Vehicles extends StatelessWidget {
   const Vehicles({super.key});

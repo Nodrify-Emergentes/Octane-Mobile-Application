@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/vehicle_management/model/vehicle_create_request.dart';
+import 'package:octane_mobile/vehicle_management/model/vehicle_create_request.dart';
 
 import '../../../model/vehicle_model.dart';
 

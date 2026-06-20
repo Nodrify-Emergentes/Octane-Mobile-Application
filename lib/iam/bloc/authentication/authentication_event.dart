@@ -1,4 +1,4 @@
-import 'package:byker_z_mobile/iam/models/sign-in_request.dart';
+import 'package:octane_mobile/iam/models/sign-in_request.dart';
 
 abstract class AuthenticationEvent {}
 

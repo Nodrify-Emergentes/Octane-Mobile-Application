@@ -1,6 +1,6 @@
-# byker_z_mobile
+# octane_mobile
 
-An application made by NRG6
+An application made by Nodrify
 
 ## Getting Started
 
